@@ -33,3 +33,27 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for (i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
+
+// 配列を使って、3つの文字列を格納し、forループを使って、
+// 配列の全ての要素を順番にコンソールに出力するプログラムを書いてください。
+// let strings = ["apple", "banana", "orange"];
+
+// for (let i = 0; i < strings.length; i++) {
+//   console.log(strings[i]);
+// }
+const words = ['りんご', 'ぶどう', 'いちご'];
+for (i = 0; i < words.length; i++) {
+  console.log(words[i]);
+}
+
+// 関数を使って、2つの引数を受け取り、その引数を足して返すプログラムを書いてください。
+// function addNumbers(a, b) {
+//     return a + b;
+//   }
+//   let result = addNumbers(5, 10);
+//   console.log(result);
+function add(num1, num2) {
+  return 7 + 8;
+}
+const answer = add(7, 8);
+console.log(answer);
