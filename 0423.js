@@ -40,3 +40,23 @@ for (let i = 0; i < fiveWords.length; i++) {
 function add(a, b) {
   return a + b;
 }
+
+// whileループを使って、1から50までの数字で、3の倍数の場合は"Fizz"、5の倍数の場合は"Buzz"、3と5の倍数の場合は"FizzBuzz"、
+// それ以外の場合は数字をコンソールに出力するプログラムを書いてください。
+// 【・】letでの定義は出来たが、if文の部分ができなかった。
+// let i = 1;
+// while (i <= 50) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("FizzBuzz");
+//   } else if (i % 3 === 0) {
+//     console.log("Fizz");
+//   } else if (i % 5 === 0) {
+//     console.log("Buzz");
+//   } else {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+let i = 1;
+while (i <= 50);
