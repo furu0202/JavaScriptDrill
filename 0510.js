@@ -19,8 +19,15 @@ for (let i = 0; i < numbers.length; i++) {
 
 // if文を使用して、変数scoreの値が80以上の場合に"合格"、80未満の場合に"不合格"とコンソールに出力するプログラムを作成してください。
 const score = 80;
-if (score > 80) {
+if (score >= 80) {
   console.log('合格');
-} else {
+} else if (score < 80) {
   console.log('不合格');
+}
+
+// whileループを使用して、1から10までの整数をコンソールに出力するプログラムを作成してください。
+let i = 1;
+while (i <= 10) {
+  console.log(i);
+  i++;
 }
